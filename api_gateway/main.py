@@ -20,6 +20,7 @@ app=FastAPI(
     title="AI-Learning and Notes taking",
     version="1.0",
     lifespan=lifespan,
+    description="Backend to track calories of meals using AI and record progress/goals.",
 )
 
 app.include_router(auth_router)
